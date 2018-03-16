@@ -43,31 +43,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-oauth2</artifactId>
         </dependency>
-        <!--   <dependency>
-               <groupId>org.springframework.security.oauth</groupId>
-               <artifactId>spring-security-oauth2</artifactId>
-               <version>2.2.1.RELEASE</version>
-           </dependency>
-           <dependency>
-               <groupId>org.springframework.security</groupId>
-               <artifactId>spring-security-jwt</artifactId>
-               <version>1.0.9.RELEASE</version>
-           </dependency>-->
         <dependency>
             <groupId>org.thymeleaf.extras</groupId>
             <artifactId>thymeleaf-extras-springsecurity4</artifactId>
             <version>2.1.2.RELEASE</version>
         </dependency>
-        <!--
-
-        dependencies {
-            compile 'org.springframework.boot:spring-boot-starter-web',
-                    'org.springframework.boot:spring-boot-starter-security',
-                    'org.springframework.boot:spring-boot-starter-thymeleaf',
-                    'org.thymeleaf.extras:thymeleaf-extras-springsecurity4:2.1.2.RELEASE',
-                    'org.springframework.security.oauth:spring-security-oauth2',
-                    'org.springframework.security:spring-security-jwt:1.0.9.RELEASE'
-        -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
